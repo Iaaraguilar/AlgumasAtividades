@@ -1,0 +1,88 @@
+body{
+    /* Fundo da tela */
+    background-color: blueviolet;
+    /* Para nao repetir */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+   background-size: cover;    
+}
+/* Seletor de classes */
+.login{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-right: 40px;
+}
+.login a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 15px;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: black;
+    font-weight: 700px;
+    text-align: center;
+
+}
+p{
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.inputnome{
+     width: 550px;
+     height: 40px;
+     border-radius: 15px;
+     border-style: none;
+               
+}
+.inputemail{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entraremail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+
+
+}
+.Icons{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.Icons img{
+    width: 40px;
+
+
+}
+button{
+    width: 200px;
+    height: 40px;
+    color:black;
+    background-color: aquamarine;
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none;
+}
